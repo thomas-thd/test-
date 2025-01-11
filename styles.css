@@ -17,6 +17,7 @@ header {
     color: white;
     padding: 4px;
     text-align: center;
+    border-radius: 3px;
 }
 
 .container {
@@ -100,10 +101,10 @@ header {
 #container {
     display: flex;
     justify-content: space-between; /* Align items horizontally with space between them */
-    gap: 20px; /* Espace entre les boîtes */
+    gap: 10px; /* Espace entre les boîtes */
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
     text-align: center;
 }
 
@@ -111,7 +112,7 @@ header {
 #box1, #box2, #box3 {
     background-color: #ffffff; /* Blanc classique */
     border: 1px solid #e0e0e0; /* Gris clair pour la bordure */
-    width: 34%; /* Chaque boîte prend 33% de la largeur */
+    width: 36%; /* Chaque boîte prend 33% de la largeur */
     text-align: center;
     border-radius: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
