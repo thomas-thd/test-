@@ -120,7 +120,8 @@ header {
 
 /* Couleurs différentes pour chaque boîte */
 #box1 {
-    background-color:#003366 ; /* Gris très clair */
+    background-color:#003366 ;
+     /* Gris très clair */
 }
 #box1 p {
     color: white;
@@ -143,7 +144,7 @@ header {
     background-color: #ffffff; /* Fond blanc pour contraster */
     border: 1px solid #e0e0e0; /* Bordure grise claire */
     border-radius: 8px; /* Coins arrondis */
-    padding: 20px; /* Espace interne */
+    padding: 10px; /* Espace interne */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
     text-align: left; /* Alignement à gauche pour un texte structuré */
     font-size: 16px; /* Taille de texte */
@@ -155,7 +156,7 @@ header {
     font-size: 20px; /* Taille légèrement plus grande */
     font-weight: bold;
     color: #003366; /* Bleu foncé pour le titre */
-    margin-bottom: 10px; /* Espacement sous le titre */
+    margin-bottom: 5px; /* Espacement sous le titre */
     text-align: center; /* Centrer le titre */
 }
 
@@ -243,7 +244,7 @@ footer {
 
 img {
     width: 100%; /* Ajuster la largeur de l'image */
-    height:90%; /* Maintenir la proportion de l'image */
+    height:93%; /* Maintenir la proportion de l'image */
     border-radius: 2px; /* Arrondir les coins de l'image */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Optionnel : ajouter une ombre subtile autour de l'image */
 }
