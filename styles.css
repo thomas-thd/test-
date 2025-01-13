@@ -226,6 +226,21 @@ footer {
     font-weight: bold; /* Gras pour les liens */
     margin: 0 10px; /* Espace entre les liens */
 }
+/* Style général pour le lien des mentions légales */
+.mentions-legales {
+    text-decoration: none; /* Supprime le soulignement */
+    color: #f1f3f4; /* Couleur principale */
+    font-weight: bold; /* Met en gras */
+    font-size: 14px; /* Taille de police */
+    transition: color 0.3s ease; /* Animation pour l'effet hover */
+}
+
+/* Style au survol */
+.mentions-legales:hover {
+    color: #e74c3c; /* Couleur au survol (rouge par exemple) */
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
 img {
     width: 100%; /* Ajuster la largeur de l'image */
     height:90%; /* Maintenir la proportion de l'image */
